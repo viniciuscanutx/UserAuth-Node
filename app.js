@@ -92,7 +92,19 @@ app.post('/auth/login', async (req, res) => {
         return res.status(422).json({ msg: "Senha incorreta!" })
     }
 
-    //
+    try {
+        const secret = process.env.SECRET
+        const token = jwt.sign(
+            {
+                 id: user.id 
+            },
+            secret,
+            )
+            res.status(200).json({msg: "Autenticação Realizada com Sucesso!", token})
+    } catch(err) {
+        console.error(error)
+        res.status(500).json({ msg: "Houve um erro ao realizar o login!" })
+    }
 
 })
 
