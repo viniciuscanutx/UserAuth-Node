@@ -38,20 +38,20 @@ Este é um projeto de exemplo de uma API de autenticação desenvolvida com Node
 
 ## Como Executar o Projeto
 
-1. Clone o Repositório
+### 1. Clone o Repositório
 
 ```bash
 $ git clone https://github.com/seu-usuario/seu-repositorio.git
 $ cd seu-repositorio
 ```
 
-2. Instalar Dependências
+### 2. Instalar Dependências
 
 ```bash
 $ npm install
 ```
 
-3. Configurar Variáveis de Ambiente
+### 3. Configurar Variáveis de Ambiente
 
 Crie um arquivo .env na raiz do projeto e adicione as seguintes variáveis:
 
