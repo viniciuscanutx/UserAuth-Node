@@ -61,7 +61,7 @@ JWT_SECRET=sua_chave_secreta_para_jwt
 PORT=3000
 ```
 
-4. Executar o Projeto
+### 4. Executar o Projeto
 
 ```bash
 $ npm start
