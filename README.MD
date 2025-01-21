@@ -1,4 +1,4 @@
-# Projeto de API de Autenticação com Node.js e Express
+# User Auth - Node JS/Express
 
 Este é um projeto de exemplo de uma API de autenticação desenvolvida com Node.js, Express e MongoDB. A API permite que os usuários se registrem, façam login e acessem rotas protegidas mediante autenticação por token JWT.
 
@@ -41,8 +41,8 @@ Este é um projeto de exemplo de uma API de autenticação desenvolvida com Node
 ### 1. Clone o Repositório
 
 ```bash
-$ git clone https://github.com/seu-usuario/seu-repositorio.git
-$ cd seu-repositorio
+$ git clone https://github.com/viniciuscanutx/UserAuth-Node.git
+$ cd UserAuth-Node
 ```
 
 ### 2. Instalar Dependências
